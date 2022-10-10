@@ -1,11 +1,19 @@
-.container{
+nav{
     display: flex;
+    justify-content: end;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.30);
 }
 
 .links{
     display: flex;
+    width: 40%;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .link{
-    
+    list-style: none;
+    color: rgba(255, 255, 255, 0.9);
 }

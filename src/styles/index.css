@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600&display=swap');
 
+@font-face {
+    font-family:'Nickainley';
+    src: url(../assets/fonts/Nickainley-Normal.otf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Flex', sans-serif;
+}
+
+:root{
+    --pink:	rgb(247, 120, 143);
+    --orange: rgb(255, 158, 100);
+    --green: rgb(157, 206, 105);
+    --green2: rgb(115, 218, 202);
+    --background: #0A0047;
+    --blue: #004687;
+
+    
 }

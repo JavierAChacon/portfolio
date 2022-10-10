@@ -3,11 +3,7 @@ import "../styles/navBar.css"
 
 const NavBar = () => {
   return (
-    <nav className='container'>
-        <div className='logo'>
-            <p>Javier</p>
-        </div>
-        
+    <nav> 
         <ul className='links'>
             <li className='link'>Home</li>
             <li className='link'>About me</li>
