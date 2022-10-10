@@ -1,19 +1,37 @@
 .tittlePage{
   height: calc(100vh - 3rem);
-  font-family:'Nickainley';
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
+.tittle{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.tittle h1{
+  margin: 1rem;
+}
+
+.tittle span{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.imagen img{
+  height: 100%;
+}
 h1{
   color: var(--pink);
   animation: neonGlow 10s infinite alternate;
   animation: neon 0.85s ease-in-out infinite alternate;
-  font-size: 4.5rem;
-  margin-left: 2.5rem;
-  max-width: 50%;
+  font-size: 4rem;
 }
+
+
 
 @keyframes neon {
   from {
