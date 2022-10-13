@@ -62,12 +62,13 @@ ul li {
   display: block;
   width: 3rem;
   height: 3rem;
-  background: #171515;
+  background: rgba(0,0,0,0.45);
   border-radius: 50%;
   line-height: 3rem;
   text-align: center;
   font-size: 1.8rem;
   transition: .5s;
+  color: #6100b6;
 }
 
 .buttonText:before{
