@@ -13,9 +13,10 @@ const LandPage = () => {
             <span>I'm Javier Chacon a</span>
           </div>
           <div className='frontEnd'>
-            <h1>Front-End<br/>Developer</h1>
+            <h1>FRONT-END<br/>Developer</h1>
           </div>
         </div>
+        
 
         <div className="buttons">
           <ul className='listButtons'>

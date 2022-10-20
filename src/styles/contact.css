@@ -1,0 +1,109 @@
+.contact{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010123;
+  color: white;
+}
+.contact h2{
+  font-size: 3rem;
+  animation: neonGlow 2s infinite alternate;
+}
+.contact > *{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.contacth{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contacth .buttons .listButtons{
+  display: flex;
+  justify-content: center;
+}
+form{
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+form i{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #362185;
+  text-shadow: 1px 1px 4px var(--pink);
+}
+
+form input{
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding-left: 0.5rem;
+  
+}
+
+form > *{
+  display: flex;
+  align-items: center;
+  
+}
+.fullName{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.input input{
+  text-align: center;
+  width: 11rem;
+  background-color: gray;
+  transition: 300ms all ;
+}
+#lastName{
+  margin-left: 1rem;
+  width: 59%;
+}
+#name{
+  width: 50%;
+}
+
+#email{
+  width: 100%;
+}
+
+.contact .buttons{
+  margin-left: 0;
+} 
+
+.input:hover input{
+  background-color: var(--pink);
+  box-shadow: 0 0 20px var(--pink), inset 0 0 8px var(--pink);
+  color: white;
+  text-shadow: 0 0 3px white;
+}
+
+#contactText:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px var(--pink);
+  filter: blur(3px);
+}
+
+
+
+

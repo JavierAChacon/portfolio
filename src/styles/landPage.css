@@ -68,7 +68,7 @@ ul li {
   text-align: center;
   font-size: 1.8rem;
   transition: .5s;
-  color: #6100b6;
+  color: rgba(55, 33, 133, 0.8);
 }
 
 .buttonText:before{
