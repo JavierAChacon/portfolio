@@ -1,0 +1,182 @@
+.technologies{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  scroll-snap-align: center;
+  background-color: #0d1e25;
+}
+
+.technologies h2{
+  color:white;
+  font-size:3.5em;
+  text-align:center;
+  animation: neonGlow 2s infinite alternate;
+}
+
+.cardContainer{
+  margin: 2rem auto 0rem;
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card{
+  border-radius: 2rem;
+}
+
+.card > * {
+  width: 20rem;
+  position: relative;
+  transition: all 300ms;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.45);
+  height: 10.5rem;
+  font-size: 7rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.details{
+  height: 10.5rem;
+  background-color: transparent;
+  color: transparent;
+  text-align: justify;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: -10.25rem;
+  transition: all 400ms cubic-bezier(0.5,0,0,1);
+  border-radius: 2rem;
+}
+
+.details h3{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 7.5rem;
+  transition: all 400ms cubic-bezier(0.5,0,0,1);
+}
+
+.first .icon{
+  color: #563d7c;
+}
+
+.second .icon{
+  color: #61DBFB;
+}
+
+.third .icon{
+  color: #f0db4f;
+}
+
+.first:hover{
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.first:hover .icon{
+  background-color:  rgba(86, 61, 124, 0.8);
+  color:white;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 0 20px #563d7c, inset 0 0 20px #563d7c;
+  text-shadow: 0 0 3px white;
+}
+
+.first:hover .details{
+  margin-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.first:hover .details h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.second:hover{
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.second:hover .icon{
+  background-color:  rgba(97, 220, 251, 0.8);
+  color:white;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 0 20px #61DBFB, inset 0 0 20px #61DBFB;
+  text-shadow: 0 0 3px white;
+}
+
+.second:hover .details{
+  margin-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.second:hover .details h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.third:hover{
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.third:hover .icon{
+  background-color:  rgba(240, 218, 79, 0.8);
+  color:white;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 0 20px #f0db4f, inset 0 0 20px #f0db4f;
+  text-shadow: 0 0 3px white;
+}
+
+.third:hover .details{
+  margin-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.third:hover .details h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 10px rgba(255,255,255,.8),
+                 0 0 20px rgba(255,255,255,.8),
+                 0 0 22px  rgba(255,255,255,.8),
+                 0 0 40px  rgba(66,220,219,.8),
+                 0 0 60px  rgba(66,220,219,.8),
+                 0 0 80px  rgba(66,220,219,.5),
+                 0 0 100px rgba(66,220,219,.5),
+                 0 0 140px rgba(66,220,219,.5),
+                 0 0 200px rgba(66,220,219,.5);
+  }
+  100% {
+    text-shadow: 0 0 2px rgba(255,255,255,.8),
+                 0 0 8px rgba(255,255,255,.8),
+                 0 0 10px rgba(255,255,255,.8),
+                 0 0 20px rgba(66,220,219,.8),
+                 0 0 30px rgba(66,220,219,.8),
+                 0 0 40px rgba(66,220,219,.8),
+                 0 0 50px rgba(66,220,219,.5),
+                 0 0 80px rgba(66,220,219,.5);
+  }
+}
+

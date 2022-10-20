@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -21,6 +25,4 @@
     --green2: rgb(115, 218, 202);
     --background: rgb(6,0,55);
     --blue: #004687;
-
-    
 }
