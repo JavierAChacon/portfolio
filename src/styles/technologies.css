@@ -20,10 +20,8 @@
 }
 
 .cardContainer{
-  margin: 2rem auto 0rem;
   display: flex;
   column-gap: 2rem;
-  row-gap: 2rem;
 }
 
 .card{
@@ -83,6 +81,14 @@
 
 .third .icon{
   color: #f0db4f;
+}
+
+.fourth .icon{
+  color: #e34c26;
+}
+
+.fifth .icon{
+  color: #2965f1;
 }
 
 .first:hover{
@@ -153,6 +159,54 @@
 }
 
 .third:hover .details h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.fourth:hover{
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.fourth:hover .icon{
+  background-color:  rgba(240, 101, 41, 0.8);
+  color:white;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 0 20px #f06529, inset 0 0 20px #f06529;
+  text-shadow: 0 0 3px white;
+}
+
+.fourth:hover .details{
+  margin-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fourth:hover .details h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.fifth:hover{
+  box-shadow: 0 0 20px white, inset 0 0 8px white;
+}
+
+.fifth:hover .icon{
+  background-color:  rgba(41, 101, 241, 0.8);
+  color:white;
+  border-radius: 2rem 2rem 0 0;
+  box-shadow: 0 0 20px #2965f1, inset 0 0 20px #2965f1;
+  text-shadow: 0 0 3px white;
+}
+
+.fifth:hover .details{
+  margin-top: 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fifth:hover .details h3{
   margin-top: 0;
   margin-bottom: 0.5rem;
 }

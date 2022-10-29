@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
 }
+
 form{
   background: rgba(0,0,0,0.45);
   display: flex;
@@ -67,6 +68,7 @@ form > *{
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  
 }
 
 .input input{
@@ -75,12 +77,9 @@ form > *{
   background-color: gray;
   transition: 300ms all ;
 }
-#lastName{
-  margin-left: 1rem;
-  width: 59%;
-}
+
 #name{
-  width: 50%;
+  width: 100%;
 }
 
 #email{
@@ -104,6 +103,14 @@ form > *{
   filter: blur(3px);
 }
 
+textarea {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+}
 
 
 
